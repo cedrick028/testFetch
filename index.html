@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/logos/icon.png" />
+    <title>Plants vs. Zombies</title>
+</head>
+<body id="mainContent">
+
+    <!-- == Nav Menu == -->
+    <div id="nav_menu">
+        <div id="nav_plant" class="flexCenter navBtn_container activeNavBtn">
+            <p id="btn_plant" class="medText navBtn_text activeNavBtn">PLANTS</p>
+        </div>
+        <div id="nav_zombie" class="flexCenter navBtn_container">
+            <p id="btn_zombie" class="medText navBtn_text">ZOMBIES</p>
+        </div>
+    </div>
+
+    <!-- == Content == -->
+    <div id="content_container">
+        <div id="character_container">
+            <div id="plants_container"></div>
+        </div>
+        <div id="window_container">
+            <div id="activeCharacter_container">
+                <div id="activeCharacterImg_container">
+                    <img src="images/blank_images/blank_plant.png" id="activeCharacterImage" class="images" />
+                </div>
+                <div id="activeCharacterName_container">
+                    <p id="activeCharacterName" class="medText flexCenter">Select character to display here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
